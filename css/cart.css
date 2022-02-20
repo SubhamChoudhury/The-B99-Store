@@ -1,0 +1,99 @@
+.cart-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-start;
+  padding: 2rem 10rem 0rem 10rem;
+}
+.card {
+  flex-direction: row;
+  max-width: unset;
+  box-shadow: rgb(245 245 245 / 95%) 4px 5px 8px 9px;
+}
+.quantity {
+  display: flex;
+  margin-top: 3rem;
+  align-items: center;
+  gap: 0.8rem;
+}
+.quantity i {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--red);
+}
+.increase-quantity,
+.decrease-quantity {
+  padding: 0.1rem 0.6rem;
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: 2px;
+  border: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.price-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 2rem;
+  height: fit-content;
+}
+
+.price-totalAmt {
+  border-top: 1px solid var(--lightGrey);
+  border-bottom: 1px solid var(--black);
+  padding: 0.5rem 0 1rem 0;
+}
+
+.price-calculate {
+  border-top: 1px solid var(--lightGrey);
+  padding-top: 0.5rem;
+}
+
+.price-calculate ul {
+  margin-top: 0.5rem;
+}
+
+.price-details ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  align-items: center;
+}
+
+.later-btn {
+  color: var(--darkBlue);
+}
+
+.coupon-btn {
+  background-color: inherit;
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+}
+
+.coupon {
+  padding: 0.2rem 0 1rem 0;
+  border-bottom: 1px solid var(--black);
+}
+
+.price-details .btn-primary {
+  width: 100%;
+  background-color: var(--black);
+  border: 1px solid var(--black);
+  margin: 1rem 0 0 0;
+  padding: 0.8rem;
+}
+.price-details .outline-primary {
+  color: var(--black);
+  border-color: var(--black);
+  margin: 0.5rem 0 0 0;
+  padding: 0.8rem;
+}
+.price-details .outline-primary:hover{
+    background-color: var(--black);
+    color: var(--white);
+}
