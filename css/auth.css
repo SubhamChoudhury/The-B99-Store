@@ -1,0 +1,96 @@
+.auth-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  padding: 2rem;
+  background-color: var(--second-bg-color);
+  box-shadow: rgb(100 100 111 / 20%) 13px 0px 20px 5px;
+}
+.text-center {
+  text-align: center;
+}
+.inp-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: unset;
+  margin: 1rem 0 0 0;
+}
+.btn-link {
+  background-color: var(--black);
+  width: unset;
+}
+.base-btn.outline-primary {
+  border-color: var(--black);
+  color: var(--black);
+  width: unset;
+}
+.base-btn.outline-primary:hover {
+  background-color: var(--black);
+  color: white;
+}
+.separator {
+  border-bottom: 1px solid var(--black);
+}
+.auth-main,
+.auth-checkbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+
+.auth-checkbox {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0.1rem;
+}
+
+.auth-checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.frtpswd-text {
+  color: var(--info-color);
+  margin-left: 1rem;
+  opacity: 0.7;
+}
+.frtpswd-text:hover {
+  opacity: 1;
+}
+.auth-name {
+  margin-top: 0.8rem;
+  display: flex;
+  gap: 0.8rem;
+}
+.first-name,
+.last-name {
+  display: flex;
+  flex-direction: column;
+}
+.auth-main h3{
+    margin: 1rem;
+    font-weight: 600;
+}
+@media screen and (max-width: 400px) {
+  .login-container {
+    width: 20rem;
+    padding: 1rem;
+  }
+  .auth-main {
+    gap: 0.8rem;
+  }
+}
