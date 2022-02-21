@@ -179,6 +179,7 @@ ul.devided > li:last-child {
 
 .user-menu {
   display: flex;
+  align-items: center;
 }
 
 .user-menu > li > a {
@@ -339,6 +340,9 @@ ul.devided > li:last-child {
   color: var(--btn-bg);
 }
 
+.btn-nav{
+  padding: 0.3rem;
+}
 .slide-controll {
   position: absolute;
   top: 50%;
