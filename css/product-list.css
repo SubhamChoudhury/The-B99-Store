@@ -10,9 +10,6 @@
 .filter-list > li:hover {
   color: var(--red);
 }
-.filter-toggle-box {
-  display: none;
-}
 .price-range {
   display: flex;
   align-items: center;
