@@ -65,6 +65,9 @@ The authentication pages can be accessed by clicking button on the navbar. It co
 
 ![image](https://user-images.githubusercontent.com/55877612/155072659-f5fae1aa-5c2e-44b1-a4ea-0cc394edd856.png)
 
+### Resources
+- [Google Font](https://fonts.google.com/)
+- [Box Icons](https://boxicons.com/)
 
 ### Connect with me!
 Feedbacks and suggestions are always welcome and appreciated, let's connect:
