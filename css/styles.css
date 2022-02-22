@@ -1,9 +1,7 @@
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
 }
 :root {
   --main-bg-color: #fff;
@@ -19,7 +17,6 @@
   --btn-border-color: #000;
   --btn-color: #fff;
 }
-
 
 body {
   font-family: "Poppins", sans-serif;
@@ -182,6 +179,7 @@ ul.devided > li:last-child {
 
 .user-menu {
   display: flex;
+  align-items: center;
 }
 
 .user-menu > li > a {
@@ -326,7 +324,7 @@ ul.devided > li:last-child {
   align-items: center;
   justify-content: center;
 }
-.btn-primary{
+.btn-primary {
   border: 2px solid var(--btn-border-color);
   background-color: var(--btn-bg);
   color: var(--btn-color);
@@ -342,6 +340,9 @@ ul.devided > li:last-child {
   color: var(--btn-bg);
 }
 
+.btn-nav{
+  padding: 0.3rem;
+}
 .slide-controll {
   position: absolute;
   top: 50%;
@@ -480,7 +481,6 @@ ul.devided > li:last-child {
 
 footer {
   padding: 4rem 0;
-  
 }
 
 .footer-head {
@@ -570,6 +570,9 @@ footer ul li {
 }
 .breadcumb span {
   margin: 0 1rem;
+}
+.filter-toggle-box {
+  display: none;
 }
 
 /* responsive */
